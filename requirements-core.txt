@@ -1,0 +1,26 @@
+# Core dependencies for initial setup
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+
+# Database
+sqlalchemy
+alembic
+psycopg2-binary
+
+# Data processing
+pandas
+numpy
+
+# Redis
+redis
+
+# Neo4j
+neo4j
+
+# OpenAI
+openai
+
+# Gradio
+gradio

@@ -1,0 +1,75 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+gradio==4.16.0  # Modern UI framework for ML/AI applications
+python-multipart==0.0.6
+websockets==12.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+redis==5.0.1
+neo4j==5.15.0
+qdrant-client==1.7.0
+
+# AI/ML - Budget Optimized
+langchain==0.1.0
+langchain-community==0.0.20
+langgraph==0.0.20
+openai==1.10.0  # Using GPT-3.5-turbo and gpt-4o-mini for cost savings
+tiktoken==0.5.2  # Token counting for cost management
+scikit-learn==1.4.0
+xgboost==2.0.3
+numpy==1.26.0
+pandas==2.2.0
+
+# Document Processing
+pypdf2==3.0.1
+pdfplumber==0.10.3
+python-docx==1.1.0
+pillow==10.2.0
+opencv-python==4.12.0.88
+pytesseract==0.3.10  # Free OCR alternative
+
+# Storage (Local/Free tier compatible)
+boto3==1.34.0  # Compatible with MinIO (S3-like)
+minio==7.2.3  # Local S3-compatible storage
+
+# Security
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+
+# Monitoring & Logging
+prometheus-client==0.19.0
+python-json-logger==2.0.7
+
+# Utils
+requests==2.31.0
+httpx==0.26.0
+aiofiles==23.2.1
+python-dateutil==2.8.2
+
+# UI Components & Visualization
+plotly==5.18.0
+pyvis==0.3.2  # Graph visualization for fraud networks
+matplotlib==3.8.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.4
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Development
+black==24.1.1
+isort==5.13.2
+flake8==7.0.0
+mypy==1.8.0
+pre-commit==3.6.0
+
+# Optional: Local LLM (FREE alternative to OpenAI)
+# ollama==0.1.0  # Uncomment to use local models (Llama, Mistral, etc.)
