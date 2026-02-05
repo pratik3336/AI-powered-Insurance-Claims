@@ -1,13 +1,13 @@
 ## 🤖 AI-Powered Insurance Claims Processing & Fraud Detection System
 
-**ClaimGuard** is an AI-driven insurance claims automation platform designed to streamline claim evaluation, improve fraud detection accuracy, and accelerate decision-making.
+**ClaimAI** is an AI-driven insurance claims automation platform designed to streamline claim evaluation, improve fraud detection accuracy, and accelerate decision-making.
 The system integrates **computer vision, machine learning, and intelligent workflow automation** to assist claim adjusters from submission through approval or denial.
 
 ---
 
 ## 🚀 What This System Does
 
-ClaimGuard enhances insurance claim processing by:
+ClaimAI enhances insurance claim processing by:
 
 * **Damage Assessment via AI Vision**
   Analyzes uploaded claim photos to estimate damage severity and potential repair costs.
@@ -96,8 +96,8 @@ The system automatically creates:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ClaimGuard.git
-cd ClaimGuard
+git clone https://github.com/yourusername/ClaimAI.git
+cd ClaimAI
 
 # Install dependencies
 pip install -r requirements.txt
@@ -129,7 +129,7 @@ http://localhost:7860
 ## Project Structure
 
 ```
-ClaimGuard/
+ClaimAI/
 ├── app/
 │   ├── core/              # Configuration and database connections
 │   ├── models/            # SQLAlchemy database models
@@ -197,7 +197,7 @@ Create a `.env` file in the project root:
 ```bash
 # Required
 OPENAI_API_KEY=your-api-key-here
-DATABASE_URL=postgresql://user:password@localhost:5432/claimguard
+DATABASE_URL=postgresql://user:password@localhost:5432/claimAI
 
 # Optional
 OPENAI_VISION_MODEL=gpt-4o-mini  # For cost optimization
